@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furr Loveph - Online Store</title>
+    <link 
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="store-styles.css" /> 
+</head>
+<body>
+
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="index.html">Furr Loveph</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="#">Store</a></li> 
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+ 
+    <header class="store-header">
+        <div class="section__container">
+            <h1>Pet Supplies & More</h1>
+            <p>Your one-stop shop for your furry friends!</p>
+        </div>
+    </header>
+
+    <section class="products section__container"> 
+        <div class="product">
+            <img src="assets/product1.jpg" alt="Product 1">
+            <h3>Pet Toy Ball</h3>
+            <p>₱70</p>
+            <button onclick="addToCart('Pet Toy Ball', 70)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product2.jpg" alt="Product 2">
+            <h3>Yellow Pet Chew Toy</h3>
+            <p>₱70</p>
+            <button onclick="addToCart('Yellow Pet Chew Toy', 70)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product3.jpg" alt="Product 3">
+            <h3>Pet Rugby Ball</h3>
+            <p>₱70</p>
+            <button onclick="addToCart('Pet Rugby Ball', 70)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product4.jpg" alt="Product 4">
+            <h3>Red Pet Chew Toy</h3>
+            <p>₱80</p>
+            <button onclick="addToCart('Red Pet Chew Toy', 80)">Add to Cart</button>
+        </div>
+         <div class="product">
+            <img src="assets/product5.jpg" alt="Product 5">
+            <h3>Silver Pet Comb</h3>
+            <p>₱90</p>
+            <button onclick="addToCart('Silver Pet Comb', 90)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product6.jpg" alt="Product 6">
+            <h3>Pet Nail Cutter</h3>
+            <p>₱100</p>
+            <button onclick="addToCart('Pet Nail Cutter', 100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product7.jpg" alt="Product 7">
+            <h3>Silver Pet Bowl</h3>
+            <p>100</p>
+            <button onclick="addToCart('Silver Pet Bowl', 100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product8.jpg" alt="Product 8">
+            <h3>Special Dog Food</h3>
+            <p>₱70</p>
+            <button onclick="addToCart('Special Dog Food', 70)">Add to Cart</button>
+        </div>
+         <div class="product">
+            <img src="assets/product9.jpg" alt="Product 9">
+            <h3>Special Cat Food</h3>
+            <p>₱70</p>
+            <button onclick="addToCart('Special Cat Food', 70)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product10.png" alt="Product 10">
+            <h3>Violet Pet Chew Toy</h3>
+            <p>₱80</p>
+            <button onclick="addToCart('Violet Pet Chew Toy', 80)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product11.png" alt="Product 11">
+            <h3>Peanut Pet Toy</h3>
+            <p>₱100</p>
+            <button onclick="addToCart('Peanut Pet Toy', 100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product12.png"alt="Product 12">
+            <h3>Green Peanut Pet Toy</h3>
+            <p>₱80</p>
+            <button onclick="addToCart('Green Peanut Pet Toy', 80)">Add to Cart</button>
+        </div>
+           <div class="product">
+            <img src="assets/product13.png"alt="Product 13">
+            <h3>Violet Bone-Shaped Pet Toy</h3>
+            <p>₱80</p>
+            <button onclick="addToCart('Violet Bone-Shaped Pet Toy', 80)">Add to Cart</button>
+        </div>
+        <section class="products section__container"> 
+        <div class="product">
+            <img src="assets/product14.png" alt="Product 14">
+            <h3>Blue Leash</h3>
+            <p>₱70</p>
+            <button onclick="addToCart('Blue Leash', 70)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product15.png" alt="Product 15">
+            <h3>Green Bone-Shaped Pet Toy</h3>
+            <p>₱80</p>
+            <button onclick="addToCart('Green Bone-Shaped Pet Toy', 80)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product16.png" alt="Product 16">
+            <h3>Light Blue Pet Collar</h3>
+            <p>₱70</p>
+            <button onclick="addToCart('Light Blue Pet Collar', 70)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product17.png" alt="Product 17">
+            <h3>Thin Silver Pet Comb</h3>
+            <p>₱90</p>
+            <button onclick="addToCart('Thin Silver Pet Comb', 90)">Add to Cart</button>
+        </div>
+         <div class="product">
+            <img src="assets/product18.png" alt="Product 18">
+            <h3>Orange Silver Bowl</h3>
+            <p>₱100</p>
+            <button onclick="addToCart('Orange Silver Bowl', 100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product19.png" alt="Product 19">
+            <h3>Green White Leash</h3>
+            <p>₱100</p>
+            <button onclick="addToCart('Green White Leash', 100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product20.png" alt="Product 20">
+            <h3>Aozi Organic Dog Food</h3>
+            <p>₱70</p>
+            <button onclick="addToCart('Aozi Organic Dog Food', 70)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product21.png" alt="Product 21">
+            <h3>Red Silver Bowl</h3>
+            <p>₱150</p>
+            <button onclick="addToCart('Red Silver Bowl', 150)">Add to Cart</button>
+        </div>
+         <div class="product">
+            <img src="assets/product22.png" alt="Product 22">
+            <h3>Blue FLower Pet Collar</h3>
+            <p>₱70</p>
+            <button onclick="addToCart('Blue Flower Pet Collar', 70)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product23.png" alt="Product 23">
+            <h3>Blue Green Leash</h3>
+            <p>₱100</p>
+            <button onclick="addToCart('Blue Green Leash', 100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product24.png" alt="Product 24">
+            <h3>Multi-purpose Pet Bowl</h3>
+            <p>₱150</p>
+            <button onclick="addToCart('Multi-purpose Pet Bowl', 150)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product25.png"alt="Product 25">
+            <h3>Top Breed Adult Dog Food 1kg</h3>
+            <p>₱95</p>
+            <button onclick="addToCart('Top Breed Adult Dog Food 1kg', 95)">Add to Cart</button>
+        </div>
+           <div class="product">
+            <img src="assets/product26.png"alt="Product 26">
+            <h3>Aozi Adult Dog and Cat Food 1kg</h3>
+            <p>₱175</p>
+            <button onclick="addToCart('Aozi Adult Dog and Cat Food', 175)">Add to Cart</button>
+        </div>
+        <section class="products section__container"> 
+        <div class="product">
+            <img src="assets/product27.png" alt="Product 27">
+            <h3>SmartHeart Tuna and Shrimp Adult Cat Food 1kg</h3>
+            <p>₱175</p>
+            <button onclick="addToCart('SmartHeart Tuna and Shrimp Adult Cat Food', 175)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product28.png" alt="Product 28">
+            <h3>Special Chicken and Turkey All Ages Cat Food 1kg</h3>
+            <p>₱165</p>
+            <button onclick="addToCart('Special Chicken and Turkey All Ages Cat Food', 165)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product29.png" alt="Product 29">
+            <h3>Pedigree Beef and Veg All Ages Dog Food 1kg</h3>
+            <p>₱150</p>
+            <button onclick="addToCart('Pedigree Beef and Veg All Ages Dog Food 1kg', 150)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/product30.png" alt="Product 30">
+            <h3>Whiskas Cat Food 1kg</h3>
+            <p>₱175</p>
+            <button onclick="addToCart('Whiskas Cat Food 1kg', 175)">Add to Cart</button>
+        </div>
+         <div class="product">
+            <img src="assets/about2.jpg" alt="Product 31">
+            <h3>Doggie Biscuits</h3>
+            <p>₱85</p>
+            <button onclick="addToCart('Doggie Biscuits', 85)">Add to Cart</button>
+        </div>
+       
+    </section>
+ <section class="cart">
+        <h2>Shopping Cart 🛒</h2>
+        <ul id="cart-items"></ul>
+        <p><strong>Total: ₱<span id="cart-total">0</span></strong></p>
+    </section>
+
+  
+    <section class="order-form">
+        <h2>Order Form</h2>
+        <form onsubmit="submitOrder(event)">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" required>
+
+            <label for="address">Shipping Address</label>
+            <textarea id="address" required></textarea>
+
+            <label for="payment">Payment Method</label>
+            <select id="payment">
+                <option value="COD">Cash on Delivery</option>
+                <option value="GCash">GCash</option>
+                <option value="Bank Transfer">Bank Transfer</option>
+            </select>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="index.html">Furr Loveph</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="#">Store</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Address</h4>
+          <ul class="footer__links">
+            <li>1235, Quiricada St. Sta. Cruz Manila</li>
+            <li><a href="https://maps.app.goo.gl/fAHS2EbQx58PbvJ6A">View on Maps</a></li>
+          </ul>
+          <br />
+          <h4>Inquiries</h4>
+          <ul class="footer__links">
+            <li><a href="#">+91 0987654321</a></li>
+
+          </ul>
+        </div>
+    
+          <br />
+          <h4>Follow Us</h4>
+          <ul class="footer__socials">
+            <li>
+              <a href="https://www.facebook.com/lea.mercurio.54/photos"><i class="ri-facebook-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Furr Loveph. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+    <script src="main.js"></script> 
+    <script src="store.js"></script> 
+
+</body>
+</html>
